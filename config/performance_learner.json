@@ -1,4 +1,5 @@
 {
+    "max_iterations":2,
     "data_type":"synthetic",
     "testing_molds":[4,5,7,10],
     "plot_data":true,

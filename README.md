@@ -26,8 +26,8 @@ pip install -e .
 
 >The config folder consists of 3 files. Each of them consists of parameters that can be changed for training
 ## Training and Evaluations
-There are three main files that need to be run in the following order to generate the corresponding results
-
+There are three main files that need to be run in the following order to generate the corresponding results.
+Change the current directory to `src` and run the following commands
 ### Feature Interaction Coverage
 ```bash
 python feature_interaction.py -i feature_interaction_config.json 
@@ -44,7 +44,7 @@ python feature_interaction.py -i feature_interaction_config.json
 ```bash
 python performance_preference_learning.py -i performance_learner.json 
 ```
-> The performance learner config file consists of parameters similar to the feature interaction config.
+> The performance learner config file consists of parameters similar to the feature interaction config. There is an additional parameter of `max_iterations`. This is the number of times the dataset gets aggregated.
 
 ### Effort-based preference learning
 ```bash
