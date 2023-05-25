@@ -1,0 +1,11 @@
+region_id,region_dims,edgewise_region_neighbors,neighbor_edge_dim,region_angles,corner_coords,corner_regions,max_curvature,z_max,mold_dimensions,user_preferred_sequence
+a,"2,4","O,x,b,d,x,O,x,O","2,2,2,2,4",0,"0,0,x,2,0,x,2,4,x,0,4","O,O,O,O",0,0,"10,4","j,i,h,g,f,e,c,d,a,b"
+b,"1,2","O,x,c,x,d,x,a","1,2,1,2",30,"2,0,x,3,0,x,3,2,x,2,2","O,O,e,a",-0.7,-2,,
+c,"1,2","O,x,f,x,e,x,b","1,2,1,2",150,"3,0,x,4,0,x,4,2,x,3,2","O,O,f,d",-0.7,-2,,
+d,"1,2","b,x,e,x,O,x,a","1,2,1,2",30,"2,2,x,3,2,x,3,4,x,2,4","a,c,O,O",-0.7,-2,,
+e,"1,2","c,x,f,x,O,x,d","1,2,1,2",150,"3,2,x,4,2,x,4,4,x,3,4","b,f,O,O",-0.7,-2,,
+f,"2,4","O,x,g,i,x,O,x,e,c","2,2,2,2,2,2",0,"4,0,x,6,0,x,6,4,x,4,4","O,O,O,O",0,0,,
+g,"2,2","O,x,h,x,i,x,f","2,2,2,2",140,"6,0,x,8,0,x,8,2,x,6,2","O,O,j,f",0.5,1,,
+h,"2,2","O,x,O,x,j,x,g","2,2,2,2",40,"8,0,x,10,0,x,10,2,x,8,2","O,O,O,i",0.5,1,,
+i,"2,2","g,x,j,x,O,x,f","2,2,2,2",140,"6,2,x,8,2,x,8,4,x,6,4","f,h,O,O",0.5,1,,
+j,"2,2","h,x,O,x,O,x,i","2,2,2,2",40,"8,2,x,10,2,x,10,4,x,10,2","g,O,O,O",0.5,1,,

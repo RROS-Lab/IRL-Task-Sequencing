@@ -1,0 +1,7 @@
+Region,Curvature avg,neighbors,neighbor angles,neighbor edges,Shape complexity,Area/total area,Z avg,Z max,Corner Neighbors,region index,solution
+a,-3,"O,x,b,x,d,x,O","x,0,-40,x","1,1.2,1,1.2",0.8,0.1538461538,0.6,1,"O,O,e,O","0,0","b,e,a,d,c,f"
+b,-3,"O,x,c,x,e,x,a","x,0,-40,0","1,1.2,1,1.2",0.8,0.1538461538,0.6,1,"O,O,f,d","0,1",
+c,-3,"O,x,O,x,f,x,b","x,x,-40,0","1,1.2,1,1.2",0.8,0.1538461538,0.6,1,"O,O,O,e","0,2",
+d,-3,"a,x,e,x,O,x,O","-40,0,x,x","1,1.2,1,1.2",0.8,0.1538461538,0.6,1,"O,b,O,O","1,0",
+e,-3,"b,x,f,x,O,x,d","-40,0,x,0","1,1.2,1,1.2",0.8,0.1538461538,0.6,1,"a,c,O,O","1,1",
+f,-3,"c,x,O,x,O,x,e","-40,x,x,0","1,1.2,1,1.2",0.8,0.1538461538,0.6,1,"b,O,O,O","1,2",
