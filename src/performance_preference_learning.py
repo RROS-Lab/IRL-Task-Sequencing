@@ -37,7 +37,6 @@ class max_margin:
         ####Training Parameters####
         self.no_of_sampled_trajectories = {}      ####
         self.no_of_current_iterations = 0
-        # self.max_iterations = 5
         self.max_iterations = 2
 
         #####Hyperparameters####
@@ -801,9 +800,10 @@ class MyBounds:
 if __name__ == '__main__':
 
     parser = argparse.ArgumentParser(description='Performance-based learning training arguments')
+    parser.add_argument('-n', '--max_iterations', type=str, help='The number of maximum dataset aggregations that can be performed')
     parser.add_argument('-d', '--data_type', type=str, help='The type of data to train on, synthetic or real')
     parser.add_argument('-t', '--testing_molds', type=list, help='IDs of the molds/tools used as test dataset')
-    parser.add_argument('-n', '--dataset_count', type=int, help='Number of files in the dataset')
+    parser.add_argument('-c', '--dataset_count', type=int, help='Number of files in the dataset')
     parser.add_argument('-p', '--plot_data', type=bool, help='Argument to generate cost plots for performance trainer')
     parser.add_argument('-i', '--training_param_file', required=True, type=str, help='The json filename of the training parameters')
 
@@ -833,12 +833,12 @@ if __name__ == '__main__':
     plotting_data_directory = os.path.split(main_directory)[0] +'/'
     
 
-    ##################Adding Synthetic Data###########
+    ##################Adding Data###########
     no_of_molds = 0
     start_index = 1
     skip_data = training_params_dict['testing_molds']
     end_index = training_params_dict['dataset_count']
-    
+    max_margin_obj.max_iterations = training_params_dict['max_iterations']
     for i in range (start_index,end_index+1,1):
         if(i in skip_data):
             continue
