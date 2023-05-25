@@ -1,0 +1,7 @@
+region_id,region_dims,edgewise_region_neighbors,neighbor_edge_dim,region_angles,corner_coords,corner_regions,max_curvature,z_max,mold_dimensions,user_preferred_sequence
+a,"6,4","O,x,b,e,x,O,x,O","6,2,2,6,4",0,"0,0,x,6,0,x,6,4,x,0,4","O,O,O,O",0,0,"15,4","c,b,e,f,a,d"
+b,"3,2","O,x,c,x,e,x,a","3,2,3,2",150,"6,0,x,9,0,x,9,2,x,6,2","O,O,f,a",0.6,2,,
+c,"2,2","O,x,d,x,f,x,b","2,2,2,2",40,"9,0,x,11,0,x,11,2,x,9,2","O,O,d,e",0.8,2,,
+d,"4,4","O,x,O,x,O,x,f,c","4,4,4,2,2",0,"11,0,x,15,0,x,15,4,x,11,4","O,O,O,O",0,0,,
+e,"3,2","b,x,f,x,O,x,a","3,2,3,2",150,"6,2,x,9,2,x,9,4,x,6,4","a,c,O,O",0.6,2,,
+f,"2,2","c,x,d,x,O,x,e","2,2,2,2",40,"9,2,x,11,2,x,11,4,x,9,4","b,d,O,O",0.6,2,,

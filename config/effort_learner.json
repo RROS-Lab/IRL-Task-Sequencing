@@ -1,0 +1,8 @@
+{
+    "data_type":"synthetic",
+    "testing_molds":[4,5,7,10],
+    "plot_data":true,
+    "performance_weights":[0.1,0.1,0.1,0.1, 11.36042195,1.09174561,1.09174685,0.45352931,0.1,0.80500503],
+    "dataset_count":10
+
+}

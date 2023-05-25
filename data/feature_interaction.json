@@ -1,0 +1,23 @@
+{
+    
+    "feature_id":[
+        {"feature_names":["internal_undraped","internal_draped","boundary_undraped","boundary_draped", "region_proximity", "draped_convexity", "undraped_convexity", "curvature", "neighbor_angle","z_height"]}
+    ],
+    "feature_thresholds":[
+        {"internal_undraped":[1,2,4]},
+        {"internal_draped":[1,2,4]},
+        {"boundary_undraped":[0.3,0.6,2]},
+        {"boundary_draped":[0.3,0.6,2]},
+        {"region_proximity":[5,10,20]},
+        {"draped_convexity":[0.1,0.3,0.5]},
+        {"undraped_convexity":[0.1,0.3,0.5]},
+        {"curvature":[1,2,5]},
+        {"neighbor_angle":[2,3,5]},
+        {"z_height":[10,24,30]}
+    ],
+    "l2_interactions":[
+        {"interacting_feature_1":"neighbor_angle", "interacting_feature_2":"z_height"},
+        {"interacting_feature_1":"z_height", "interacting_feature_2":"curvature"}
+    ]
+    
+}
