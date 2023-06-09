@@ -35,7 +35,7 @@ python feature_interaction.py -i feature_interaction_config.json
 
 > The feature interaction config file consists of following parameters:
     > data_type: Can take the values "real" or "synthetic". This chooses the type of data to perform feature interaction analysis
-    > testing_molds: This is a list of molds in the corresponding dataset folder (rel or synthetic) that should be used for testing
+    > testing_molds: This is a list of molds in the corresponding dataset folder (real or synthetic) that should be used for testing
     > plot_data: This is a bool parameter. When set true, this will generate plots and corresponding result files
     > dataset_count: The number of total dataset files to be considered for analysis
     > skewness_threshold: This value is a hyperparameter used to decide the minimum threshold required to ensure uniform distribution of the features. (Refer the paper for further details)
